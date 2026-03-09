@@ -32,7 +32,7 @@ class Solution:
         
         if -2147483648 >= res or res >= 2147483647: return 0
         return res
-            
+
 if __name__ == "__main__":
 
     sol = Solution()

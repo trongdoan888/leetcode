@@ -3,3 +3,7 @@
 '.'Khớp với bất kỳ ký tự đơn nào.
 '*'Khớp với không hoặc nhiều hơn một phần tử đứng trước nó.
 Trả về giá trị boolean cho biết liệu kết quả khớp có bao phủ toàn bộ chuỗi đầu vào hay không (không bao phủ một phần). """
+
+class Solution:
+    def isMatch(self, s: str, p: str) -> bool:
+        pass
