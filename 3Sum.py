@@ -4,10 +4,11 @@ Lưu ý rằng tập hợp lời giải không được chứa các bộ ba trù
 
 
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def threeSum(self, nums):
         ans=set()
         nums.sort()
         n=len(nums)
+
         for i in range(n-2):
             for j in range(i+1,n-1):
                 for k in range(j+1,n):
