@@ -18,7 +18,7 @@ class Solution:
         rows = [[False] * 10 for _ in range(9)]
         cols = [[False] * 10 for _ in range(9)]
         boxes = [[False] * 10 for _ in range(9)]
-         n 
+
         empty_cells = []
         
         # BƯỚC 1: Quét bảng 1 lần duy nhất để khởi tạo dữ liệu
