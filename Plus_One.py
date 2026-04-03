@@ -4,5 +4,21 @@ Tăng số nguyên lớn lên một và trả về mảng các chữ số thu đ
 
 class Solution:
     def plusOne(self, digits):
-        pass
+        self.digits = digits
         
+        n = len(digits)
+        remember = 0 
+        for i in range(n-1, -1 ,-1):
+            if digits[i] == 9:
+                digits[i] = 0
+                remember = 1    
+            else:
+                digits[i] += 1
+                remember = 0
+                break
+
+        if remember == 1:
+            digits.insert(0, 1)
+    
+        return digits   
+    
